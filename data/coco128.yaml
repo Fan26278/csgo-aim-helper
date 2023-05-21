@@ -1,0 +1,21 @@
+train: "D:/Games/yolov5/data/mydata/images/train"
+val: "D:/Games/yolov5/data/mydata/images/val"
+# test:  # test images (optional)
+
+# Classes
+#names:
+#  0: T_HEAD
+#  1: CT_HEAD
+#  2: T_BODY
+#  3: CT_BODY
+names:
+  0: CT_HAED
+  1: CT_BODY
+  2: T_HEAD
+  3: T_BODY
+
+
+
+
+# Download script/URL (optional)
+
