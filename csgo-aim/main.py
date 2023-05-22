@@ -28,7 +28,7 @@ Police = False
 
 
 # 模型路径
-weights = r"D:\Games\yolov5\csgo-aim\models\csgo_v1.pt"
+weights = "csgo000.pt"
 
 
 shot_times = 4
@@ -140,8 +140,8 @@ while True:
 
 
     cv2.namedWindow("csgo-detect", cv2.WINDOW_NORMAL)
-    # cv2.resizeWindow('csgo-detect',re_x // 2,re_y // 2)
-    # cv2.imshow('csgo-detect',img0)
+    cv2.resizeWindow('csgo-detect',re_x // 2,re_y // 2)
+    cv2.imshow('csgo-detect',img0)
 
     hwnd = win32gui.FindWindow(None,'csgo-detect')
     CVRECT = cv2.getWindowImageRect('csgo-detect')

@@ -1,3 +1,4 @@
 使用pip -r requitements.txt 更新pip包
 打开csgo-aim 的main.py 即可运行
-鼠标中键开启/关闭
+鼠标中键 开启/关闭 追踪模式
+按Q退出
