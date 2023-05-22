@@ -16,23 +16,13 @@ import os
 import sys
 from pynput.keyboard import Key,Listener
 
-
-
 lock_mode = True
-
 shot_enable = False
-
-
-
 Police = False
-
 
 # 模型路径
 weights = "csgo000.pt"
-
-
 shot_times = 4
-
 mouse = pynput.mouse.Controller()
 def on_move(x, y):
     pass

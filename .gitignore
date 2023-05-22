@@ -17,11 +17,7 @@
 *.mov
 *.MOV
 *.avi
-*.data
-*.json
-*.cfg
-!setup.cfg
-!cfg/yolov3*.cfg
+
 
 storage.googleapis.com
 runs/*
@@ -48,8 +44,7 @@ VOC/
 !targets*.mat
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-*.weights
-*.pt
+
 *.pb
 *.onnx
 *.engine
@@ -66,30 +61,23 @@ yolov3-tiny.conv.15
 # GitHub Python GitIgnore ----------------------------------------------------------------------------------------------
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
 *$py.class
 
 # C extensions
 *.so
 
 # Distribution / packaging
-.Python
-env/
-build/
+
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
-var/
-wheels/
+
 *.egg-info/
 /wandb/
-.installed.cfg
 *.egg
 
 
@@ -108,7 +96,6 @@ htmlcov/
 .tox/
 .coverage
 .coverage.*
-.cache
 nosetests.xml
 coverage.xml
 *.cover
@@ -127,7 +114,6 @@ instance/
 .webassets-cache
 
 # Scrapy stuff:
-.scrapy
 
 # Sphinx documentation
 docs/_build/
@@ -139,7 +125,6 @@ target/
 .ipynb_checkpoints
 
 # pyenv
-.python-version
 
 # celery beat schedule file
 celerybeat-schedule
@@ -148,7 +133,6 @@ celerybeat-schedule
 *.sage.py
 
 # dotenv
-.env
 
 # virtualenv
 .venv*
@@ -163,8 +147,6 @@ ENV*/
 .ropeproject
 
 # mkdocs documentation
-/site
-
 # mypy
 .mypy_cache/
 
